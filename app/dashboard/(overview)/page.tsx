@@ -8,6 +8,12 @@ import {
 	RevenueChartSkeleton,
 	CardsSkeleton,
 } from '@/app/ui/skeletons';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+	title: 'Dashboard',
+	description: 'View your dashboard overview with revenue charts and latest invoices.',
+};
 
 export default async function Page() {
 	return (
